@@ -3,3 +3,37 @@
     margin: 0;
     padding: 0;
 }
+
+.header {
+    background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+.left {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3em;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
